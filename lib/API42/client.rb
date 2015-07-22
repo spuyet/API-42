@@ -5,9 +5,9 @@ module API42
   class Client
     attr_accessor :token
 
-    def initialize token
+    def initialize token=nil
       @host = RestClient::Resource.new('https://api.intrav2.42.fr')
-      @token = token
+      @token = token ||  ENV.fetch('API_42_KEY')
     end
 
     def cursus(options = {})
