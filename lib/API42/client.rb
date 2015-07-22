@@ -32,7 +32,7 @@ module API42
       get teams[id.to_s]
     end
 
-    def users(login, options = {})
+    def user(login, options = {})
       users = @host['users']
       login = users[login]
       get login[options[:resource]]

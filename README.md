@@ -1,6 +1,6 @@
 # API42 [![Gem Version](https://badge.fury.io/rb/API42.svg)](http://badge.fury.io/rb/API42)
 
-A simple ruby wrapper for the 42 API.
+A simple ruby wrapper for the 42 API v1.4.2.
 
 ## Installation
 
@@ -20,11 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions
+See the [wiki](https://github.com/spuyet/API-42/wiki/Usage).
 
 ## Contributing
 
-1. Fork it ( https://github.com/spuyet]/API42/fork )
+1. Fork it ( https://github.com/spuyet/API42/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
